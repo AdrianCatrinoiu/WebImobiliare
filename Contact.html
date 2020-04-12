@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <title>Imobiliare</title>
+</head>
+
+<body>
+    <ul>
+
+        <li class="dropdown" onclick="menu_dropdown()">
+            <div id="navbar_left"></div>
+            <div class="dropbtn">
+                <div class="icon_menu" id="iconmenu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/Case_Vile.html#">Case/Vile</a>
+                    <a href="http://127.0.0.1:5500/Apartamente.html#">Apartamente</a>
+                    <a href="http://127.0.0.1:5500/Garsoniere.html#">Garsoniere</a>
+                </div>
+            </div>
+        </li>
+
+
+        <li>
+            <div id="navbar_center">
+                <a href="http://127.0.0.1:5500/Home.html#" class="active">
+                    <i class="material-icons" id="icon_casa">house</i>
+                </a>
+            </div>
+        </li>
+        <li id="navbar_right">
+            <div>
+                <a href="http://127.0.0.1:5500/Contact.html#">Contact</a>
+            </div>
+        </li>
+
+    </ul>
+    <div class="contacte">
+        <h1>Mai jos puteti afla date pentru a ne contacta :</h1>
+        <h1 class="text"><b><i class="material-icons">home</i>Adresă:</b>Str.Tudor Arghezi 16,Sector 2,București,Romania
+        </h1>
+        <h2 class="text wiggle"><b><i class="material-icons">phone</i>Telefon:</b>0742761256</h2>
+        <h1 class="text"><b><i class="material-icons">mail</i>E-mail:</b><a
+                href="https://ro.yahoo.com/?p=us">ady.catrinoiu@yahoo.ro</a></h1>
+        <h1 class="text"><i class="material-icons">face</i>Facebook:<a
+                href="https://www.facebook.com/ady.catrinoiu">Adrian
+                Catrinoiu</a></h1>
+        <p class="text">Va rugam sa selectati ce fel de proprietate va intereseaza:</p>
+        <div class="formular">
+            <form id="form2">
+                <div class="item-flex">
+                    <div class="label-container">
+                        <label for="fname">Prenume:</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+                </div>
+                <div class="item-flex">
+                    <div class="label-container">
+                        <label for="lname">Nume:</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+                </div>
+                <div class="item-flex">
+                    <div class="label-container">
+                        <label for="lname">E-mail:</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="email" name="email"><br><br>
+                    </div>
+                </div>
+                <div class="item-flex">
+                    <div class="label-container">
+                        <label for="lname">Telefon:</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="tel" name="tel"><br><br>
+                    </div>
+                </div>
+                <div class="item-flex">
+                    <div class="label-container">
+                        <label for="lname">Ce tip de proprietate va intereseaza</label>
+
+                    </div>
+                    <div class="input-container">
+
+                        <select id="cars" name="cars">
+                            <option value="casa">1</option>
+                            <option value="apart">2</option>
+                            <option value="gars">3</option>
+
+                        </select><br><br>
+                        <ol class="orderlist">
+                            <li><span class="text">Case/Vile</span></li>
+                            <li><span class="text">Apartamente</span></li>
+                            <li><span class="text">Garsoniere</span></li>
+
+                        </ol><br><br>
+
+                    </div>
+                </div>
+                <div class="input-button">
+                    <input type="submit" value="Submit" class="submitbtn"><br><br>
+                </div>
+            </form>
+        </div>
+
+
+        <audio controls autoplay>
+            <source src="audio/LifeIsGood.mp3" type="audio/mpeg">
+        </audio>
+        <p class="text">Program:</p>
+        <div class="tabel">
+            <table>
+
+                <tr>
+                    <th class="text">Luni</th>
+                    <td class="text">9am - 5pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Marti</th>
+                    <td class="text">9am - 5pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Miercuri</th>
+                    <td class="text">9am - 5pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Joi</th>
+                    <td class="text">9am - 5pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Vineri</th>
+                    <td class="text">9am - 5pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Sambata</th>
+                    <td class="text">10am - 4pm</td>
+                </tr>
+                <tr>
+                    <th class="text">Duminica</th>
+                    <td class="text">Inchis</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+
+
+
+
+</html>

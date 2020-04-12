@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <title>Imobiliare</title>
+</head>
+
+<body>
+    <ul>
+
+        <li class="dropdown" onclick="menu_dropdown()">
+            <div id="navbar_left"></div>
+            <div class="dropbtn">
+                <div class="icon_menu" id="iconmenu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/Case_Vile.html#">Case/Vile</a>
+                    <a href="http://127.0.0.1:5500/Apartamente.html#">Apartamente</a>
+                    <a href="http://127.0.0.1:5500/Garsoniere.html#">Garsoniere</a>
+                </div>
+            </div>
+        </li>
+
+
+        <li>
+            <div id="navbar_center">
+                <a href="http://127.0.0.1:5500/Home.html#" class="active">
+                    <i class="material-icons" id="icon_casa">house</i>
+                </a>
+            </div>
+        </li>
+        <li id="navbar_right">
+            <div>
+                <a href="http://127.0.0.1:5500/Contact.html#">Contact</a>
+            </div>
+        </li>
+
+    </ul>
+    <div>
+        <img src="showcase/background-homepage.jpg" alt="casa homepage" id="casa-homepage">
+
+    </div>
+    <div class="bara-stanga-homepage">
+        <div id="text-stanga-homepage">
+            <h1 id="titlu-home" class="text">Bine ati venit!</h1>
+            <h2 class="text"> Va invitam sa vizitati lista de imobile ale firmei noastre prin accesarea meniului!</h2>
+            <h3 class="text"> De asemenea va invitam sa vizitati si site-ul partenerilor nostri de la Asheville Interior
+                Design, care sunt cei care se pot ocupa de interiorul locuintei cumparate de la noi!</h3>
+            <h4 class="text"> Pentru mai multe informatii ne puteti contacta intrand pe pagina de contact de mai sus !
+            </h4>
+
+        </div>
+        <div id="site-interior" class="iframe">
+            <iframe src="https://www.allardandroberts.com/" id="site-interior-marime"></iframe>
+        </div>
+    </div>
+
+
+
+    <div id="slide">
+        <div class="slideshow-container">
+            <div class="mySlides fade"> <img src="showcase/casa-showcase1.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/casa-showcase2.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/casa-showcase3.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/apt-showcase1.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/apt-showcase2.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/apt-showcase3.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/gars-showcase1.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/gars-showcase2.jpg" class="imagine_slide" alt="casa"> </div>
+            <div class="mySlides fade"> <img src="showcase/gars-showcase3.jpg" class="imagine_slide" alt="casa"> </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
